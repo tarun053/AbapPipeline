@@ -1,15 +1,15 @@
 general:
-  cfApiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
-  cfOrg: 'myOrg'
-  cfSpace: 'mySpace'
-  cfCredentialsId: 'cfAuthentification'
+  cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+  cfOrg: '0ceb0976trial'
+  cfSpace: 'dev'
+  cfCredentialsId: 'CF_Mohit'
   cfServiceInstance: 'atc_system'
-  cfServiceKeyName: 'JENKINS_SAP_COM_0510'
+  cfServiceKeyName: 'ABAP_SAP_COM_0510'
 stages:
   Prepare System:
     cfService: 'abap'
     cfServicePlan: 'standard'
-    abapSystemAdminEmail: 'user@example.com'
+    abapSystemAdminEmail: 'mohit.q.sharma@accenture.com'
     abapSystemDescription: 'ABAP Environment Q System'
     abapSystemIsDevelopmentAllowed: false
     abapSystemID: 'H02'
