@@ -3,15 +3,4 @@ node('jenkins233slave'){
   stage('Prepare')   {
       abapEnvironmentPipeline script: this
   }
-
-  stage('Build')   {
-      mtaBuild (
-      script:this )
-  }
-
-  stage('Deploy')   {
-      cloudFoundryDeploy(
-      script:this, 
-      verbose:true)
-  }
 }
