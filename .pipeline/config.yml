@@ -1,4 +1,3 @@
-
   general:
   cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
   cfOrg: '0ceb0976trial'
