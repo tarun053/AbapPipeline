@@ -1,10 +1,11 @@
-general:
-  cfApiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
-  cfOrg: 'myOrg'
-  cfSpace: 'mySpace'
-  cfCredentialsId: 'cfAuthentification'
-  cfServiceInstance: 'atc_system'
-  cfServiceKeyName: 'JENKINS_SAP_COM_0510'
+
+  general:
+  cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+  cfOrg: '0ceb0976trial'
+  cfSpace: 'dev'
+  cfCredentialsId: 'CF_Mohit'
+  cfServiceInstance: 'PiperAbapEnv'
+  cfServiceKeyName: 'PiperAbapKey'
 stages:
   Clone Repositories:
     repositories: 'repositories.yml'
