@@ -4,4 +4,4 @@ node('jenkins233slave'){
       checkout scm
       abapEnvironmentPipeline script: this
   }
-
+}
