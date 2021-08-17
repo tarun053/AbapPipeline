@@ -1,7 +1,7 @@
 @Library('Piper_lib_abap') _
- agent { label "jenkins233slave" }
 {
   stage('Prepare')   {
+   agent { label "jenkins233slave" }
        abapEnvironmentPipeline script: this
 }
 }
